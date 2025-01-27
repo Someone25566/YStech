@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YS Technician</title>
+    <link rel="stylesheet" href="New.css">
+</head>
+<body>
+    <header>
+        <h1>YS Technician</h1>
+        <div class="header-buttons">
+            <img src="pfp.jpg" alt="Profile Picture" class="profile-pic" onclick="toggleProfileDropdown()">
+            <div id="profile-dropdown" class="profile-dropdown">
+                <div class="profile-info">
+                    <img src="pfp.jpg" alt="Profile Picture" class="profile-pic-dropdown">
+                    <p>Username</p>
+                </div>
+                <button onclick="handleProfileClick()">Profile</button>
+                <button onclick="handleLogoutClick()">Logout</button>
+            </div>
+            <button onclick="handleLoginClick()">Login</button>
+            <button onclick="handleCartClick()">Cart</button>
+        </div>
+    </header>
+    <nav>
+        <a href="https://www.instagram.com/rusty_9d/">Instagram</a>
+    </nav>
+    <main>
+        <h2>Welcome to YS Technician</h2>
+        <p>Your one-stop shop for all hardware and computer needs.</p>
+        <div class="button-container">
+            <button onclick="handleButtonClick('MacBook')">
+                <img src="macbook.png" alt="MacBook" class="button-icon"> MacBook
+            </button>
+            <button onclick="handleButtonClick('Windows')">
+                <img src="windows.png" alt="Windows" class="button-icon"> Windows
+            </button>
+            <button onclick="handleButtonClick('Linux')">
+                <img src="linux.png" alt="Linux" class="button-icon"> Linux
+            </button>
+        </div>
+        <p class="description">Select your component type</p>
+        <section class="about">
+            <h3>About Us</h3>
+            <p>At YS Technician, we pride ourselves on being a leading provider of top-notch hardware and computer solutions. Our store offers a wide range of products, from the latest laptops and desktops to essential accessories and components. Whether you're a tech enthusiast or a professional, we have everything you need to stay ahead in the digital world.</p>
+            <p>Our team of experts is dedicated to providing exceptional customer service and support. We believe in building lasting relationships with our customers by offering reliable products and personalized assistance. Visit us today and experience the best in technology and computer hardware.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2020 YS Technician</p>
+        <p>Contact us: <a href="mailto:yossufsameh579@outlook.com">contact us</a></p>
+    </footer>
+    <script src="lol.js"></script>
+</body>
+</html>
